@@ -1,0 +1,80 @@
+norm first:
+
+----------------------------------------------------------
+temp_model_FD001_50_915.pk1
+
+study.best_params: {
+'batch_size': 256, 
+'dropout': 0.005469910686263173, 
+'learning_rate': 7.340813409052245, 
+'nhead': 10, 
+'nhid': 250, 
+'nlayers': 4}
+seq_len = 50
+num_epochs = 100
+study.best_value: 915.5315200805665
+
+FD1 : best test loss: 915.5315200805665(MSE) / RMSE : 30.25775140489733
+FD2 : best test loss: 697.3694155071721(MSE) / RMSE : 26.407752943163718
+FD3 : best test loss: 671.2003134861588(MSE) / RMSE : 25.907533913635216
+FD4 : best test loss: 529.5589594870805(MSE) / RMSE : 23.012148085024148
+
+-------------------------------------------------------
+temp_model_FD001_50_885.pk1
+
+study.best_params: {
+'batch_size': 256, 
+'dropout': 0.00796704562314808, 
+'learning_rate': 0.183847362432442, 
+'nhead': 10, 
+'nhid': 250, 
+'nlayers': 4}
+seq_len = 50
+num_epochs = 100
+
+FD1 : best test loss: 885.4462127685547(MSE) / RMSE : 29.756448255269895
+FD2 : best test loss: 693.5434902942542(MSE) / RMSE : 26.335213883586633
+FD3 : best test loss: 663.6245478987694(MSE) / RMSE : 25.760911239681903
+FD4 : best test loss: 534.0465210437775(MSE) / RMSE : 23.109446575887045
+
+-------------------------------------------------------
+temp_model_FD004_50_461.pk1
+
+study.best_params: {
+'batch_size': 256, 
+'dropout': 0.0023809938917112106, 
+'learning_rate': 0.2320105869942663, 
+'nhead': 10, 
+'nhid': 450, 
+'nlayers': 3}
+seq_len = 50
+num_epochs = 200
+
+FD1 : best test loss: 715.9518374633789(MSE) / RMSE : 26.757276346133942
+FD2 : best test loss: 583.842540509773(MSE) / RMSE : 24.16283386752831
+FD3 : best test loss: 537.6617980003357(MSE) / RMSE : 23.187535401597465
+FD4 : best test loss: 461.9569037437439(MSE) / RMSE : 21.493182727175235
+
+------------------------------------------------------
+temp_model_FD001_40_707.pk1
+
+parameters: {
+'learning_rate': 0.5754225672513801, 
+'nlayers': 3, 
+'dropout': 0.02268130204099435, 
+'nhid': 250, 
+'nhead': 10, 
+'batch_size': 256}.
+seq_len = 40
+
+best test loss(MSE): 707.5138388241039
+best test loss(RMSE): 26.599132294571262
+
+best test loss(MSE): 562.0158635775248
+best test loss(RMSE): 23.706873762213455
+
+best test loss(MSE): 511.9205291867256
+best test loss(RMSE): 22.62566085635347
+
+best test loss(MSE): 428.95488514900205
+best test loss(RMSE): 20.711226065807935 
